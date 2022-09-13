@@ -1,0 +1,37 @@
+{
+    "menuSection": "Виртуальные элементы",
+    "configItem": [
+        {
+            "name": "Логгирование в график",
+            "type": "Writing",
+            "subtype": "Loging",
+            "id": "log",
+            "widget": "chart1",
+            "page": "Графики",
+            "descr": "График",
+            "int": 60,
+            "logid": "tmp",
+            "num": 1,
+            "points": 255
+        }
+    ],
+    "about": {
+        "authorName": "Dmitry Borisenko",
+        "authorContact": "https://t.me/Dmitry_Borisenko",
+        "authorGit": "https://github.com/DmitryBorisenko33",
+        "specialThanks": "",
+        "moduleName": "Loging",
+        "moduleVersion": "1.0",
+        "moduleDesc": "Расширение позволяющее логгировать любую величину в график",
+        "propInfo": {
+            "int": "Интервал",
+            "logid": "ID величины которую будем логгировать",
+            "points": "Максимальное количество точек в одном файле"
+        }
+    },
+    "defActive": true,
+    "devices": {
+        "esp32_4mb": [],
+        "esp8266_4mb": []
+    }
+}

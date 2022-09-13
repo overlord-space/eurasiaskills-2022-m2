@@ -1,0 +1,59 @@
+{
+    "menuSection": "Виртуальные элементы",
+    "configItem": [
+        {
+            "name": "Окно ввода числа (переменная)",
+            "type": "Reading",
+            "subtype": "Variable",
+            "id": "value",
+            "widget": "inputDgt",
+            "page": "Ввод",
+            "descr": "Введите число",
+            "int": "0",
+            "val": "0.0",
+            "num": 2
+        },
+        {
+            "name": "Окно ввода времени",
+            "type": "Reading",
+            "subtype": "Variable",
+            "id": "time",
+            "widget": "inputTm",
+            "page": "Ввод",
+            "descr": "Введите время",
+            "int": "0",
+            "val": "02:00",
+            "num": 3
+        },
+        {
+            "name": "Окно ввода даты",
+            "type": "Reading",
+            "subtype": "Variable",
+            "id": "time",
+            "widget": "inputDate",
+            "page": "Ввод",
+            "descr": "Введите дату",
+            "int": "0",
+            "val": "24.05.2022",
+            "num": 4
+        }
+    ],
+    "about": {
+        "authorName": "Ilya Belyakov",
+        "authorContact": "https://t.me/Biveraxe",
+        "authorGit": "https://github.com/biveraxe",
+        "specialThanks": "",
+        "moduleName": "Variable",
+        "moduleVersion": "1.0",
+        "moduleDesc": "Специальный системный модуль для использования переменных в процессе автоматизации как элементов конфигурации.",
+        "propInfo": {
+            "int": "Не используется",
+            "val": "Не используется"
+        }
+    },
+    "defActive": true,
+    "devices": {
+        "esp32_4mb": [],
+        "esp8266_4mb": []
+    }
+}
